@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -28,11 +28,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.go-to-page-two {
+  position:absolute;
+}
+
+.State-page {
+  display:flex;
+  flex-direction: row;
+}
+
+.cityButton {
+  position:absolute;
+  right: 30%;
+  top: 30%;
+}
+
+.cityInfo {
+  position:absolute;
+  background-color: rgba(193, 193, 193, 0.774);
+  width: 70%;
+  height: 60%;
+  top: 30%;
+}
+
+.cityMapTemp {
+  /* width: 60% */
+  height: 90%
+}
+
+.allOptions {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option {
+  margin-left: 50px;
+  margin-right: 50px;
 }

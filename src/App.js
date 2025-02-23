@@ -1,29 +1,35 @@
-import React from "react";
+// import React from "react";
 import {
-  createBrowserRouter,
-  RouterProvider,
-  Route
+  BrowserRouter,
+  Routes,
+  Route,
 } from "react-router-dom";
 
-// import Root, { rootLoader } from "./routes/root";
-// import Team, { teamLoader } from "./routes/team";
+import HomePage from "./HomePage";
+import StatePage from './StatePage';
 
-import Page from "./Page";
-import Page_2 from './Page_2';
 
-const router = createBrowserRouter([
-  <Route 
-    exact path="/"
-    element={<Page />}
-  />,
-  <Route 
-    exact path="/aa"
-    element={<Page_2 />}
-  />
-])
 
 function App() {
-  return <RouterProvider router={router} />
+  return (
+    <>
+      <BrowserRouter>
+          <Routes>
+              <Route
+                exact path="/"
+                element={<HomePage />}
+              />
+              <Route
+                exact path="/StateLevel"
+                element={<StatePage />}
+              />
+              <Route
+                exact path="/moreInfo"
+              />
+          </Routes>
+      </BrowserRouter>
+    </>
+);
   
 }
 
