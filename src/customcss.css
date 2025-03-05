@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  height: 96px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+.content-section {
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.navbar-text {
+  font-family: "Nunito Sans";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.heading1 {
+  font-family: "Bebas Neue";
+  font-size: 56px;
+}
+
+.heading2 {
+    font-family: "Bebas Neue";
+    font-size: 48px;
+  }
+
+.eyebrow {
+    font-family: "Nunito Sans";
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #AC4A1B;
+  color: #ffffff;
+  border: none;
+  font-family: "Nunito Sans";
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 16px;
+  }
+
+
+.btn-primary:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.map-marker {
+  height: 16px;
+  width: 16px;
+  outline: solid 4px #fff;
+  aspect-ratio: 1 / 1;
+  background-color: #AC4A1B;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.map-marker:hover {
+    transform: scale(1.4);
+  }
+
+
+
+.back-link {
+    color: #AC4A1B;
+    text-decoration: none;
+}
+
+label.btn {
+    font-size: 12px;
+}
+
+.btn-outline-primary {
+    color: #AC4A1B;
+    border: #AC4A1B 1px solid; 
+    border-radius: 8px;
+    padding: 5px;
+}
+
+input:checked > .btn {
+    color: black; 
+}

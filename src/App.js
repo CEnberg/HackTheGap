@@ -23,9 +23,6 @@ function App() {
                 exact path="/StateLevel"
                 element={<StatePage />}
               />
-              <Route
-                exact path="/moreInfo"
-              />
           </Routes>
       </BrowserRouter>
     </>
